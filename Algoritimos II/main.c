@@ -5,5 +5,17 @@
 
 int main(int argc, char *argv[]) {
 	printf("Ola mundo!");
+
+	int idade;
+	int aluguel;
+	char genero;
+	int total_aleatorio;
+
+	idade = 6;
+	aluguel = 1;
+
+	total_aleatorio = idade + aluguel;
+	printf("Tem que mostrar o valor da variavel %d",total_aleatorio);
+	
 	return 0;
 }

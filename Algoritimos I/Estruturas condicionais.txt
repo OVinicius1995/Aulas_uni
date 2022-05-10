@@ -1,0 +1,22 @@
+Estrutura condicional simples
+
+Testa se uma condição e, caso seja verdadeira, executa um bloco de comandos
+
+Se (<expressão logica>) entao
+    <sequencia de comandos> 
+Fim_se
+-------------------------------------------------------------------------------------
+Estrutura condicional composta
+
+Se (<expressão logica>) entao
+    <sequencia logica>
+
+Senão
+
+Fim_se
+--------------------------------------------------------------------------------------
+Estrutura condicional aninhada
+
+Pode-se compor por uma estrutura condicional mais complexa
+
+Coloca-se um "Se-Então-[Senão]" dentro um do outro de acordo com a necessidade

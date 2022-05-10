@@ -1,0 +1,19 @@
+Algoritmo verifica idade
+Var
+    idade : inteiro //Variável do tipo inteiro
+
+Inicio
+    Escreva ("Digite sua idade:") // Saída de dados mostra na tela 
+    Leia(idade) // Espera pela entrada do usuario
+
+    Escreva("O valor da Variável é ", idade)
+
+    Se (indade >= 18 E <= 20) entao
+        Escreva("Voce é maior de idade, possui entre 18 e 20 anos")
+
+    Senão
+        Escreva("Você não atingiu a maior idade")
+
+    Fim_se
+
+Fim
