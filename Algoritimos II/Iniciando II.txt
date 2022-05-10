@@ -1,0 +1,8 @@
+Para entrada de dados usa-se (scanf)
+
+Sintaxe
+scanf("<tipo_da_variavel>", &<variavel>);
+
+Escrita de dados na tela
+
+printf("texto <tipo_da_variavel>", <variavel>);
