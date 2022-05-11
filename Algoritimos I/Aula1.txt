@@ -1,3 +1,4 @@
+Algoritmo controle de agua
 Var
     apartamentos : inteiro
     total : real
@@ -14,8 +15,11 @@ Inicio
         leia(litros)
 
         litros / 1000.0
-        
+
     fim_para
+
     Se (litros > total)
         total <- litros
     fim_se
+
+Fim
