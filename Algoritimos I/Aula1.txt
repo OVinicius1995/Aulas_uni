@@ -1,0 +1,21 @@
+Var
+    apartamentos : inteiro
+    total : real
+    litros : real
+    contador : inteiro
+
+Inicio
+    Escreva ("Informe a quantidade de apartamentos")
+    leia(apartamentos)
+
+    para(contador = 0; contador <= apartamentos; contador ++)
+
+        Escreva("Digite a quantidade de litros gastos:")
+        leia(litros)
+
+        litros / 1000.0
+        
+    fim_para
+    Se (litros > total)
+        total <- litros
+    fim_se
