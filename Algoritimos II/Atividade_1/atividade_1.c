@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	double litros;
 	double total = 0.0;
 	int contador;
-	int ap;
+	int ap; 
 	
 	printf("Digite a quantidade de apartamentos: \n");
 	scanf("%d",&apt);
