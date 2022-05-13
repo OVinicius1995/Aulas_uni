@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 	
 	int apt;
-	double litros, l;
+	double litros;
 	double total = 0.0;
 	int contador;
 	int ap;
@@ -19,11 +19,6 @@ int main(int argc, char *argv[]) {
 	for (contador = 1; contador<= apt; contador++){
 	printf("Digite a qtde de litros do apartamento: %d \n", contador);
 	scanf("%d", &litros);
-	
-//	l = litros / 1000.0;
-	
-	//printf("qtde litros: %d \n", l);
-	
 	
 	if (contador == 1){
 		total=litros;
@@ -48,7 +43,8 @@ int main(int argc, char *argv[]) {
 	
 	printf("O apartamento que mais gastou foi: %d \n", ap);
 	printf("E gastou: %d",total / 1000.0);
-	printf(" metros cubicos");
+	printf(" metros cubicos \n");
 	
+	system("pause");
 	return 0;
 }
